@@ -11,4 +11,4 @@ Using Git to notice how often I update and achieve changes to the files as well.
 
 ## License
 
-This project is licensed under the MULAN PERMISSIVE LICENSE
+This project is licensed under the [Mulan PSL v2](./LICENSE)
