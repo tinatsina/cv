@@ -56,7 +56,7 @@
 \makeatletter
 \let\ps@customFooterStyle\ps@plain % Copy the plain style to customFooterStyle
 \patchcmd{\ps@customFooterStyle}{\thepage}{
-    \color{gray}\textit{\small John Doe - Page \thepage{} of \pageref*{LastPage}}
+    \color{gray}\textit{\small Tinaye H Tsinakwadi - Page \thepage{} of \pageref*{LastPage}}
 }{}{} % replace number by desired string
 \makeatother
 \pagestyle{customFooterStyle}
@@ -176,85 +176,111 @@
 
 
     \section{About Me}
-
-
-
-        
+      
         \begin{onecolentry}
-            Is a LaTeX-based CV/resume version-control and maintenance app. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with \textbf{Markdown syntax support} and \textbf{complete control over the LaTeX code}.
+            Data and Financial Analyst. Interested in machine learning and AI. Skilled in financial modelling, advanced visualization, data
+            ingestion pipelines and creating AI models. Well versed in Statistical, Financial analysis.
         \end{onecolentry}
 
         \vspace{0.2 cm}
-
-        \begin{onecolentry}
-            The boilerplate content was inspired by \href{https://github.com/dnl-blkv/mcdowell-cv}{Gayle McDowell}.
-        \end{onecolentry}
-
-
     
-    \section{Quick Guide}
+    % \section{Certifications} To be added when I have some basic certs like Power BI, CFA, Excel and Oracle SQL
 
-    \begin{onecolentry}
-        \begin{highlightsforbulletentries}
-
-
-        \item Each section title is arbitrary and each section contains a list of entries.
-
-        \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
-
-        \item Select a section title, pick an entry type, and start writing your section!
-
-        \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
+    % \begin{onecolentry}
+    %     \begin{highlightsforbulletentries}
 
 
-        \end{highlightsforbulletentries}
-    \end{onecolentry}
+    %     \item Each section title is arbitrary and each section contains a list of entries.
+
+    %     \item There are 7 unique entry types: \textit{BulletEntry}, \textit{TextEntry}, \textit{EducationEntry}, \textit{ExperienceEntry}, \textit{NormalEntry}, \textit{PublicationEntry}, and \textit{OneLineEntry}.
+
+    %     \item Select a section title, pick an entry type, and start writing your section!
+
+    %     \item \href{https://docs.rendercv.com/user_guide/}{Here}, you can find a comprehensive user guide for RenderCV.
+
+
+    %     \end{highlightsforbulletentries}
+    % \end{onecolentry}
 
     \section{Education}
 
-
-
         
         \begin{twocolentry}{
             
             
-        \textit{Sept 2000 – May 2005}}
-            \textbf{University of Pennsylvania}
+        \textit{Sept 2016 - June 2020}}
+            \textbf{Nanjing University of Posts and Telecommunications}
 
-            \textit{BS in Computer Science}
+            \textit{BSc in Information Engineering }
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item GPA: 3.9/4.0 (\href{https://example.com}{a link to somewhere})
-                \item \textbf{Coursework:} Computer Architecture, Comparison of Learning Algorithms, Computational Theory
+                \item GPA: 3.6/5.0
+                \item \textbf{Coursework:} Information Theory, Stochastic Processes, Linear Algebra, Discrete Mathematics, SQL
             \end{highlights}
         \end{onecolentry}
+        \vspace{0.50 cm}
 
 
-
-    
-    \section{Experience}
-
-
-
-        
         \begin{twocolentry}{
-        \textit{Cupertino, CA}    
             
-        \textit{June 2005 – Aug 2007}}
-            \textbf{Software Engineer}
-            
-            \textit{Apple}
+        
+        \textit{Sept 2020 - June 2023}}
+            \textbf{Nanjing University of Posts and Telecommunications}
+
+            \textit{MSc in Computer Science}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Reduced time to render user buddy lists by 75\% by implementing a prediction algorithm
-                \item Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-                \item Redesigned chat file format and implemented backward compatibility for search
+                \item GPA: 4.3/5.0
+                \item \textbf{Coursework:} Big Data Analysis, Artificial Intelligence, Algorithims and Data Structures
+                \item Lab Assistant
+            \end{highlights}
+        \end{onecolentry}
+        \vspace{0.50 cm}
+
+        
+        \begin{twocolentry}{
+        
+        
+            \textit{Sept 2024 - now}}
+                \textbf{Universitat Liechtenstein}
+    
+                \textit{MSc in Information Systems}
+            \end{twocolentry}
+    
+            \vspace{0.10 cm}
+            \begin{onecolentry}
+                \begin{highlights}
+                    \item \textbf{Coursework:} Business Statistics, Information Systems Development, Digital Innovation, Business Process Management
+                \end{highlights}
+            \end{onecolentry}
+            \vspace{0.50 cm}
+    
+
+    \section{Work Experience}
+
+
+        \begin{twocolentry}{
+        \textit{Nanjing, China}    
+            
+        \textit{June 2020 - Aug 2021}}
+            \textbf{Data Engineer Intern}
+            
+            \textit{CIMK}
+        \end{twocolentry}
+
+        \vspace{0.10 cm}
+        \begin{onecolentry}
+            \begin{highlights}
+                \item Data scrapping and Chrome automation tools designer
+                \item Automated data ingestion pipelines and scripting
+                \item Cleaning and formatting data for AI models
+                \item Creating CI/CD pipelines for real time AI deployment
             \end{highlights}
         \end{onecolentry}
 
@@ -262,129 +288,146 @@
         \vspace{0.2 cm}
 
         \begin{twocolentry}{
-        \textit{Redmond, WA}    
+        \textit{Nanjing, China}    
             
-        \textit{June 2003 – Aug 2003}}
-            \textbf{Software Engineer Intern}
+        \textit{November 2021 - August 2024}}
+            \textbf{Software Engineer}
             
-            \textit{Microsoft}
+            \textit{Qingheng Microelectronics } \textbf{WCH}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-                \item Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-                \item Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-                \item Created a test case generation tool that creates random XML docs from XML Schema
-                \item Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
+                \item Create software for hardware devices and embedded systems.
+                \item USB PD, Bluetooth Low Energy and Qi Wireless firmware development.
+                \item Analyze and Test EMC capacity of new boards.
+                \item Analyze Antenna functionality and model for deployment
             \end{highlights}
         \end{onecolentry}
 
 
-
-    
     \section{Publications}
-
-
 
         
         \begin{samepage}
-            \begin{twocolentry}{
-                Jan 2004
-            }
-                \textbf{3D Finite Element Analysis of No-Insulation Coils}
+            \begin{twocolentry}{July 3 2022}
+                \textbf{Sing-Ant: RFID Indoor Positioning System Using Single Antenna with Multiple Beams Based on LANDMARC Algorithm}
 
-                \vspace{0.10 cm}
+                \vspace{0.25 cm}
 
-                \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
+                \mbox{Ping Tan}, \mbox{\textbf{\textit{Tinaye H Tsinakwadi}}}, \mbox{Zhe Xu}
             \end{twocolentry}
 
 
             \vspace{0.10 cm}
 
             \begin{onecolentry}
-        \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
+        \href{https://www.mdpi.com/2076-3417/12/13/6751}{MDPI Applied Sciences}
             \end{onecolentry}
         \end{samepage}
 
 
     
-    \section{Projects}
+    % \section{Projects}
 
 
 
         
-        \begin{twocolentry}{
+    %     \begin{twocolentry}{
             
             
-        \textit{\href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}}}
-            \textbf{Multi-User Drawing Tool}
+    %     \textit{\href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}}}
+    %         \textbf{Multi-User Drawing Tool}
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+    %     \begin{onecolentry}
+    %         \begin{highlights}
+    %             \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
+    %             \item Tools Used: C++, MFC
+    %         \end{highlights}
+    %     \end{onecolentry}
+
+
+    %     \vspace{0.2 cm}
+
+    %     \begin{twocolentry}{
+            
+            
+    %     \textit{\href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}}}
+    %         \textbf{Synchronized Desktop Calendar}
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+    %     \begin{onecolentry}
+    %         \begin{highlights}
+    %             \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
+    %             \item Tools Used: C\#, .NET, SQL, XML
+    %         \end{highlights}
+    %     \end{onecolentry}
+
+
+    %     \vspace{0.2 cm}
+
+    %     \begin{twocolentry}{
+            
+            
+    %     \textit{2002}}
+    %         \textbf{Custom Operating System}
+    %     \end{twocolentry}
+
+    %     \vspace{0.10 cm}
+    %     \begin{onecolentry}
+    %         \begin{highlights}
+    %             \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
+    %             \item Tools Used: C
+    %         \end{highlights}
+    %     \end{onecolentry}
+
+
+
+        \section{Languages}
+        
+        \begin{twocolentry}{}
+            \textbf{English}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-                \item Tools Used: C++, MFC
+                \item Native language, full fluency
             \end{highlights}
         \end{onecolentry}
 
 
         \vspace{0.2 cm}
 
-        \begin{twocolentry}{
-            
-            
-        \textit{\href{https://github.com/sinaatalay/rendercv}{github.com/name/repo}}}
-            \textbf{Synchronized Desktop Calendar}
+        \begin{twocolentry}{}
+            \textbf{Deutsch}
         \end{twocolentry}
 
         \vspace{0.10 cm}
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-                \item Tools Used: C\#, .NET, SQL, XML
+                \item Conversational, B2 Level
             \end{highlights}
         \end{onecolentry}
-
-
-        \vspace{0.2 cm}
-
-        \begin{twocolentry}{
-            
-            
-        \textit{2002}}
-            \textbf{Custom Operating System}
-        \end{twocolentry}
-
-        \vspace{0.10 cm}
-        \begin{onecolentry}
-            \begin{highlights}
-                \item Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-                \item Tools Used: C
-            \end{highlights}
-        \end{onecolentry}
-
 
 
     
     \section{Technologies}
 
-
-
         
         \begin{onecolentry}
-            \textbf{Languages:} C++, C, Java, Objective-C, C\#, SQL, JavaScript
+            \textbf{Languages:} Python, Java, C/C++, SQL
         \end{onecolentry}
 
         \vspace{0.2 cm}
 
         \begin{onecolentry}
-            \textbf{Technologies:} .NET, Microsoft SQL Server, XCode, Interface Builder
+            \textbf{Technologies:} Power BI, Excel, Pandas, Matplotlib, Seaborn, PyTorch
         \end{onecolentry}
 
-
-    
 
 \end{document}
